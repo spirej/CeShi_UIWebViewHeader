@@ -15,6 +15,7 @@
 		093A25BC1CB3551100B81C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093A25BA1CB3551100B81C04 /* LaunchScreen.storyboard */; };
 		093A25C71CB3551100B81C04 /* CeShi_UIWebViewHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A25C61CB3551100B81C04 /* CeShi_UIWebViewHeaderTests.m */; };
 		093A25D21CB3551100B81C04 /* CeShi_UIWebViewHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A25D11CB3551100B81C04 /* CeShi_UIWebViewHeaderUITests.m */; };
+		093A25E11CB355A900B81C04 /* WebViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A25E01CB355A900B81C04 /* WebViewHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		093A25CD1CB3551100B81C04 /* CeShi_UIWebViewHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeShi_UIWebViewHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		093A25D11CB3551100B81C04 /* CeShi_UIWebViewHeaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeShi_UIWebViewHeaderUITests.m; sourceTree = "<group>"; };
 		093A25D31CB3551100B81C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093A25DF1CB355A900B81C04 /* WebViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewHeader.h; sourceTree = "<group>"; };
+		093A25E01CB355A900B81C04 /* WebViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				093A25B01CB3551100B81C04 /* AppDelegate.m */,
 				093A25B21CB3551100B81C04 /* ViewController.h */,
 				093A25B31CB3551100B81C04 /* ViewController.m */,
+				093A25DF1CB355A900B81C04 /* WebViewHeader.h */,
+				093A25E01CB355A900B81C04 /* WebViewHeader.m */,
 				093A25B51CB3551100B81C04 /* Main.storyboard */,
 				093A25B81CB3551100B81C04 /* Assets.xcassets */,
 				093A25BA1CB3551100B81C04 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093A25E11CB355A900B81C04 /* WebViewHeader.m in Sources */,
 				093A25B41CB3551100B81C04 /* ViewController.m in Sources */,
 				093A25B11CB3551100B81C04 /* AppDelegate.m in Sources */,
 				093A25AE1CB3551100B81C04 /* main.m in Sources */,
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CeShi_UIWebViewHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xs.CeShi-UIWebViewHeader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CeShi_UIWebViewHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xs.CeShi-UIWebViewHeader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
